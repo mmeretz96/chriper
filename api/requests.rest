@@ -1,0 +1,22 @@
+POST http://localhost:3030/auth/register
+Content-Type: application/json
+
+{
+    "username": "mat34",
+    "password": "password243423",
+    "email": "mat34@example.com",
+    "name": "Matthias",
+    "surname": "Meretz"
+}
+
+###
+GET http://localhost:3030/auth
+
+###
+POST http://localhost:3030/auth/login
+Content-Type: application/json
+
+{
+    "username": "mat2",
+    "password": "password"
+}
